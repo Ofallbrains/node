@@ -1,0 +1,15 @@
+{
+    "appName": "SafeSpace",
+    "version": "1.0.0",
+    "author": "Denyse",
+    "env": "development",
+    "db": {
+      "host": "localhost",
+      "port": 27017,
+      "name": "safespaceDB"
+    },
+    "features": {
+      "chatEnabled": true,
+      "anonymousMode": true
+    }
+  }
