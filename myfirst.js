@@ -48,3 +48,11 @@ writefs2.writeFile("files/file.txt", "This is learning nodejs", (err) => {
     console.log("Error was found while writing");
     
 })
+
+//listing directories using fs.readdir
+const dir = require('fs')
+dir.readdir('./files', (err, files) => {
+    if (err) throw err;
+    console.log("Directory content:", files);
+    
+})
